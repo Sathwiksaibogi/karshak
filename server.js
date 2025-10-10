@@ -31,7 +31,7 @@ app.use('/uploads', express.static(path.resolve('uploads')));
 // Mount the main router on the /api path.
 // All routes defined in the /routes folder will now be accessible under /api
 // e.g., /api/auth/login, /api/products, /api/status
-app.use('/', mainRouter);
+app.use('/api', mainRouter);
 app.use('/api/uploads', uploadsRouter);
 
 
