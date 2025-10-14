@@ -162,5 +162,3 @@ export const listProductNames = async (_req, res) => {
     return res.status(500).json({ message: 'Server error fetching product names' });
   }
 };
-
-

@@ -11,5 +11,3 @@ router.patch('/:id', updateProduct);
 router.get('/', listProductNames);
 
 export default router;
-
-
